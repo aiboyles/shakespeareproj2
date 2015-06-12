@@ -73,6 +73,8 @@ function createGraph(speakers) {
     
     var myChart = d3.select('#chart-area').append('svg')
         .style('background', '#F7F7FA')
+        .style('display', 'block')
+        .style('margin', 'auto')
         .attr('width', width + margin.left + margin.right)
         .attr('height', height + margin.top + margin.bottom)
         .append('g')
