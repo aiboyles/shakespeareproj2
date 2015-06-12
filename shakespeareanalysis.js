@@ -219,7 +219,7 @@ $(document).ready(function () {
         $("div.chart-area").html("");
         
         $html = $(document.createDocumentFragment());
-        url = "playtext/" + $(this).attr("name") + ".html";
+        url = "../shakespeareproj1/playtext/" + $(this).attr("name") + ".html";
         backgroundReadFile(url);
     });
 });
